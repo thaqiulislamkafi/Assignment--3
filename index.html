@@ -35,7 +35,8 @@
 
 <body class="sora-font">
   <header>
-    <nav class="w-[85.94vw] mx-auto mt-2  mx-0">
+    <nav class=" border-b-2 border-b-accentcolor lg:border-none">
+     <div class="nav-section w-[85.94vw] mx-auto mt-2  mx-0 flex justify-between items-center">
       <div class="navbar bg-base-100 px-0">
         <div class="navbar-start mx-0">
           <a class="btn btn-ghost text-xl px-0"><img class="w-[110px] h-auto" src="c2-assets/logo-header.png"
@@ -81,7 +82,13 @@
             <button class="border-2 border-accentcolor  bg-accentcolor py-2 px-8 rounded-lg hover:bg-green-800"><a
                 class="  text-white min-h-0">Register</a></button>
           </div>
+          
+          </div>
         </div>
+        <div class="toogle  lg:hidden">
+          <img src="c2-assets/bars-3.png" alt="">
+     </div>
+     </div>
 
     </nav>
     <div class="banner mt-6 lg:mt-20 bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
@@ -149,7 +156,7 @@
       <div class="products-container w-[85.94vw] mx-auto  py-[70px] lg:py-[120px]">
         <p class="text-accentcolor text-3xl font-semibold mb-8">Popular Products</p>
 
-        <div class="card-container flex lg:flex-row flex-col  gap-4 border-2 border-orange-400">
+        <div class="card-container flex lg:flex-row flex-col  gap-4 ">
           <div
             class="container-title px-6 lg:px-9 bg-gradient-to-45  bg-gradient-to-r from-[#53DB3A] to-white  rounded-lg relative">
             <h2 class="text-lg  lg:text-3xl font-semibold mt-16 my-2 text-white">30% off</h2>
@@ -162,9 +169,9 @@
           </div>
 
 
-          <div class="cards grid grid-cols-2 lg:grid-cols-3 gap-3 border-2 border-orange-700">
+          <div class="cards grid grid-cols-2 lg:grid-cols-3 lg:gap-3 gap-2 ">
 
-            <div class="card flex flex-row lg:gap-3 gap-2 p-4 pr-6  bg-white ">
+            <div class="card flex flex-row lg:gap-3 gap-2 lg:p-4 p-3  bg-white ">
               <div class="card-image flex bg-gray-200 justify-center p-2 rounded-lg pb-1">
                 <img class="w-[32px] lg:w-[70px] h-auto" src="c2-assets/onion.png" alt="">
               </div>
@@ -174,17 +181,17 @@
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="rating-text mt-1">
-                    <p class="text-[2.42vw]">4.5</p>
+                    <p class="text-[8px] lg:text-sm">4.5</p>
 
                   </div>
                 </div>
 
-                <h5 class="text-[2.82vw] lg:text-base font-semibold my-1">Onion 1 kg</h5>
-                <p class="text-[1.82vw] lg:text-sm">$39.99</p>
+                <h5 class="text-xs lg:text-base font-semibold my-1">Onion 1 kg</h5>
+                <p class="text-[8px] lg:text-sm">$39.99</p>
               </div>
             </div>
 
-            <div class="card flex flex-row lg:gap-3 gap-2 p-4 pr-6 bg-white">
+            <div class="card flex flex-row lg:gap-3 gap-2 lg:p-4 p-3 bg-white">
               <div class="card-image flex bg-gray-200 justify-center  p-2 rounded-lg pb-1">
                 <img class="w-[5.66vw] lg:w-[70px] h-auto" src="c2-assets/tomato.png" alt="">
               </div>
@@ -194,17 +201,17 @@
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="rating-text mt-1">
-                    <p class="text-[2.42vw]">4.5</p>
+                    <p class="text-[8px] lg:text-sm">4.5</p>
 
                   </div>
                 </div>
 
-                <h5 class="font-semibold my-1 text-[2.82vw] lg:text-base">Tomato 1 kg</h5>
-                <p class="text-[1.82vw] lg:text-sm">$29.99</p>
+                <h5 class="font-semibold my-1 text-xs lg:text-base">Tomato 1 kg</h5>
+                <p class="text-[8px] lg:text-sm">$29.99</p>
               </div>
             </div>
 
-            <div class="card flex flex-row lg:gap-3 gap-2 p-4 pr-7 bg-white">
+            <div class="card flex flex-row lg:gap-3 gap-2 lg:p-4 p-3 bg-white">
               <div class="card-image flex bg-gray-200 justify-center  p-2 rounded-lg pb-1">
                 <img class="w-[5.66vw] lg:w-[70px] h-auto" src="c2-assets/potato.png" alt="">
               </div>
@@ -214,19 +221,18 @@
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="rating-text mt-1">
-                    <p class="text-[2.42vw]">4.5</p>
+                    <p class="text-[8px] lg:text-sm">4.5</p>
 
                   </div>
                 </div>
 
-                <h5 class="font-semibold my-1 text-[2.82vw] lg:text-base">Potato 1 kg</h5>
-                <p class="text-[1.82vw] lg:text-sm">$59.99</p>
+                <h5 class="font-semibold my-1 text-xs lg:text-base">Potato 1 kg</h5>
+                <p class="text-[8px] lg:text-sm">$59.99</p>
               </div>
             </div>
-
-            <div class="card flex flex-row lg:gap-3 gap-2 p-4 pr-6  bg-white ">
+            <div class="card flex flex-row lg:gap-3 gap-2 lg:p-4 p-3  bg-white ">
               <div class="card-image flex bg-gray-200 justify-center p-2 rounded-lg pb-1">
-                <img class="w-10 lg:w-[70px] h-auto" src="c2-assets/onion.png" alt="">
+                <img class="w-[32px] lg:w-[70px] h-auto" src="c2-assets/onion.png" alt="">
               </div>
               <div class="card-description">
                 <div class="rating-number flex flex-row gap-2 items-center ">
@@ -234,19 +240,19 @@
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="rating-text mt-1">
-                    <p class="text-xs">4.5</p>
+                    <p class="text-[8px] lg:text-sm">4.5</p>
 
                   </div>
                 </div>
 
-                <h5 class="text-sm lg:text-base font-semibold my-1">Onion 1 kg</h5>
-                <p class="text-[9px] lg:text-sm">$39.99</p>
+                <h5 class="text-xs lg:text-base font-semibold my-1">Onion 1 kg</h5>
+                <p class="text-[8px] lg:text-sm">$39.99</p>
               </div>
             </div>
 
-            <div class="card flex flex-row lg:gap-3 gap-2 p-4 pr-6 bg-white">
+            <div class="card flex flex-row lg:gap-3 gap-2 lg:p-4 p-3 bg-white">
               <div class="card-image flex bg-gray-200 justify-center  p-2 rounded-lg pb-1">
-                <img class="w-10 lg:w-[70px] h-auto" src="c2-assets/tomato.png" alt="">
+                <img class="w-[5.66vw] lg:w-[70px] h-auto" src="c2-assets/tomato.png" alt="">
               </div>
               <div class="card-description">
                 <div class="rating-number flex flex-row gap-2 items-center ">
@@ -254,19 +260,19 @@
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="rating-text mt-1">
-                    <p class="text-xs">4.5</p>
+                    <p class="text-[8px] lg:text-sm">4.5</p>
 
                   </div>
                 </div>
 
-                <h5 class="font-semibold my-1 text-sm lg:text-base">Tomato 1 kg</h5>
-                <p class="text-[9px] lg:text-sm">$29.99</p>
+                <h5 class="font-semibold my-1 text-xs lg:text-base">Tomato 1 kg</h5>
+                <p class="text-[8px] lg:text-sm">$29.99</p>
               </div>
             </div>
 
-            <div class="card flex flex-row lg:gap-3 gap-2 p-4 pr-7 bg-white">
+            <div class="card flex flex-row lg:gap-3 gap-2 lg:p-4 p-3 bg-white">
               <div class="card-image flex bg-gray-200 justify-center  p-2 rounded-lg pb-1">
-                <img class="w-10 lg:w-[70px] h-auto" src="c2-assets/potato.png" alt="">
+                <img class="w-[5.66vw] lg:w-[70px] h-auto" src="c2-assets/potato.png" alt="">
               </div>
               <div class="card-description">
                 <div class="rating-number flex flex-row gap-2 items-center ">
@@ -274,19 +280,18 @@
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="rating-text mt-1">
-                    <p class="text-xs">4.5</p>
+                    <p class="text-[8px] lg:text-sm">4.5</p>
 
                   </div>
                 </div>
 
-                <h5 class="font-semibold my-1 text-sm lg:text-base">Potato 1 kg</h5>
-                <p class="text-[9px] lg:text-sm">$59.99</p>
+                <h5 class="font-semibold my-1 text-xs lg:text-base">Potato 1 kg</h5>
+                <p class="text-[8px] lg:text-sm">$59.99</p>
               </div>
             </div>
-
-            <div class="card flex flex-row lg:gap-3 gap-2 p-4 pr-6  bg-white ">
+            <div class="card flex flex-row lg:gap-3 gap-2 lg:p-4 p-3  bg-white ">
               <div class="card-image flex bg-gray-200 justify-center p-2 rounded-lg pb-1">
-                <img class="w-10 lg:w-[70px] h-auto" src="c2-assets/onion.png" alt="">
+                <img class="w-[32px] lg:w-[70px] h-auto" src="c2-assets/onion.png" alt="">
               </div>
               <div class="card-description">
                 <div class="rating-number flex flex-row gap-2 items-center ">
@@ -294,19 +299,19 @@
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="rating-text mt-1">
-                    <p class="text-xs">4.5</p>
+                    <p class="text-[8px] lg:text-sm">4.5</p>
 
                   </div>
                 </div>
 
-                <h5 class="text-sm lg:text-base font-semibold my-1">Onion 1 kg</h5>
-                <p class="text-[9px] lg:text-sm">$39.99</p>
+                <h5 class="text-xs lg:text-base font-semibold my-1">Onion 1 kg</h5>
+                <p class="text-[8px] lg:text-sm">$39.99</p>
               </div>
             </div>
 
-            <div class="card flex flex-row lg:gap-3 gap-2 p-4 pr-6 bg-white">
+            <div class="card flex flex-row lg:gap-3 gap-2 lg:p-4 p-3 bg-white">
               <div class="card-image flex bg-gray-200 justify-center  p-2 rounded-lg pb-1">
-                <img class="w-10 lg:w-[70px] h-auto" src="c2-assets/tomato.png" alt="">
+                <img class="w-[5.66vw] lg:w-[70px] h-auto" src="c2-assets/tomato.png" alt="">
               </div>
               <div class="card-description">
                 <div class="rating-number flex flex-row gap-2 items-center ">
@@ -314,19 +319,19 @@
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="rating-text mt-1">
-                    <p class="text-xs">4.5</p>
+                    <p class="text-[8px] lg:text-sm">4.5</p>
 
                   </div>
                 </div>
 
-                <h5 class="font-semibold my-1 text-sm lg:text-base">Tomato 1 kg</h5>
-                <p class="text-[9px] lg:text-sm">$29.99</p>
+                <h5 class="font-semibold my-1 text-xs lg:text-base">Tomato 1 kg</h5>
+                <p class="text-[8px] lg:text-sm">$29.99</p>
               </div>
             </div>
 
-            <div class="card hidden lg:flex flex-row lg:gap-3 gap-2 p-4 pr-7 bg-white">
+            <div class="card flex flex-row lg:gap-3 gap-2 lg:p-4 p-3 bg-white">
               <div class="card-image flex bg-gray-200 justify-center  p-2 rounded-lg pb-1">
-                <img class="w-10 lg:w-[70px] h-auto" src="c2-assets/potato.png" alt="">
+                <img class="w-[5.66vw] lg:w-[70px] h-auto" src="c2-assets/potato.png" alt="">
               </div>
               <div class="card-description">
                 <div class="rating-number flex flex-row gap-2 items-center ">
@@ -334,16 +339,17 @@
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   </div>
                   <div class="rating-text mt-1">
-                    <p class="text-xs">4.5</p>
+                    <p class="text-[8px] lg:text-sm">4.5</p>
 
                   </div>
                 </div>
 
-                <h5 class="font-semibold my-1 text-sm lg:text-base">Potato 1 kg</h5>
-                <p class="text-[9px] lg:text-sm">$59.99</p>
+                <h5 class="font-semibold my-1 text-xs lg:text-base">Potato 1 kg</h5>
+                <p class="text-[8px] lg:text-sm">$59.99</p>
               </div>
             </div>
 
+            
 
 
 
